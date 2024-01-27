@@ -1,0 +1,47 @@
+.section4 {
+  width: 100%;
+  min-height: 800px;
+
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  .container {
+    .textss {
+      text-align: center;
+
+      .test {
+        margin-top: 20px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+        #line {
+          width: 400px;
+          height: 5px;
+          border: 1px solid orange;
+          background-color: orange;
+        }
+      }
+    }
+    .eats {
+      margin-top: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      display: flex;
+      font-size: 30px;
+    }
+    .cardContainer {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-2.jpg.webp");
+  background-size: cover;
+  height: 800px;
+  .text {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    .text2 {
+      font-size: 20px;
+      display: flex;
+      justify-content: end;
+    }
+  }
+}

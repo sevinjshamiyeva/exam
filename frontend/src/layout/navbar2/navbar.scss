@@ -1,0 +1,50 @@
+.nav2 {
+  width: 100%;
+  border: 1px solid white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(21, 133, 173);
+
+  .logo {
+    color: white;
+    width: 300px;
+    height: 100px;
+    border: 1px solid white;
+    font-size: 35px;
+    #point {
+      font-size: 45px;
+      color: orangered;
+    }
+  }
+  .center {
+    ul {
+      display: flex;
+      gap: 50px;
+      li {
+        list-style: none;
+        .link {
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 400px;
+    height: 100px;
+    gap: 10px;
+    #reserv {
+      color: orangered;
+    }
+    #number {
+      color: white;
+    }
+  }
+}

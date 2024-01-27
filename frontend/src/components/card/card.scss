@@ -1,0 +1,18 @@
+.card {
+  width: 400px;
+  height: 150px;
+  color: white;
+  h3 {
+    margin-top: 25px;
+  }
+  .carddetail {
+    gap: 10px;
+    margin-top: 25px;
+    display: flex;
+    .ingredients {
+      font-size: 15px;
+    }
+  }
+  .icons {
+  }
+}
